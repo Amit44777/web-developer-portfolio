@@ -1,7 +1,7 @@
 *{
     font-family: 'Open Sans', sans-serif;
 }
-/* nav{
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,7 +85,11 @@ nav, a{
 nav, .nav-title, ul{
     text-align: center;
     justify-content: space-between;
-} */
+}
+
+
+
+
 
 
 main{
@@ -145,4 +149,91 @@ main section{
     color: #757575;
     font-size: 30px;
     font-weight: 700;
+}
+
+.resume-container{
+    display: flex;
+    gap: 55px;
+}
+
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resure-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.resure-item-description, .resure-item-institute{
+    color: #757575;
+}
+
+.resume-container, hr{
+    margin: 30px ;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+.download-cv .btn-primary{
+    background-color: #FD6E0A;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700; 
+    width: 200px;
+    height: 65px;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+
+
+footer{
+    display: flex;
+    text-align: center;
+    gap: 100px;
+    background: #FFF8F3;
+    width: 1600px;
+    height: 780px;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+
+.footer-column{
+    width: 50%;
+    text-align: center;
+
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.Contact, input[type="text"], .Contact input[type="email"],  textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0;
+    width: 461px;
+    height: 64px;
+
+}
+
+.footer-column, .section-title, a{
+    margin-right: 25px;
+    color: #474747;
+}
+.button-primary{
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
 }
