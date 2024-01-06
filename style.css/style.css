@@ -61,9 +61,9 @@ nav, a{
     max-width: 500px;
 }
 
-.header, .Profile-image{
+/* .header, .Profile-image{
     width: 500px;
-}
+} */
 .banner-greeting{
     font-size: 45px; 
     color: #474747;
@@ -214,7 +214,7 @@ footer{
     font-weight: 700;
 }
 
-.Contact, input[type="text"], .Contact input[type="email"],  textarea{
+input[type="text"], input[type="email"],  textarea{
     display: block;
     margin-bottom: 24px;
     padding: 18px 35px;
@@ -230,10 +230,4 @@ footer{
 .footer-column, .section-title, a{
     margin-right: 25px;
     color: #474747;
-}
-.button-primary{
-    width: 150px;
-    height: 64px;
-    border-radius: 5px;
-    background: #FD6E0A;
 }
